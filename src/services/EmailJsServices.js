@@ -2,7 +2,7 @@ import emailjs from 'emailjs-com';
 import Config from 'react-native-config';
 
 export const sendEmail = async (userEmail, recipientEmail, subject, message, dispatch, draft) => {
-  console.log('📤 Sending email in progress...');
+  console.log('Sending email in progress...');
 
   const templateParams = {
     from_name: userEmail,      
